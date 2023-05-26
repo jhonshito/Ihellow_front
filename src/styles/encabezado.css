@@ -1,0 +1,17 @@
+
+.conten_cabecera{
+    position: fixed;
+    top: 5%;
+    left: 35%;
+    transform: translate(-5%, -35%);
+    background-color: white;
+    padding: 20px 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0, 0.19);
+}
+
+.cabecera{
+    width: 380px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+}

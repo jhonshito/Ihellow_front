@@ -1,0 +1,63 @@
+
+.content_calendario{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.react-calendar{
+    border: 1px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0, 0.19);
+    border-radius: 3px;
+    color: #9b51e0;
+}
+
+.content_text_inicial{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.content_text_inicial i{
+    font-size: 27px;
+    color: #9b51e0;
+}
+
+.content_text_inicial p{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.fechas{
+    outline: none;
+    padding: 5px 40px 5px 10px;
+    border: 1px solid #9b51e0;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.react-datepicker__month-container {
+    background: white;
+    height: 300px;
+    width: 300px;
+}
+
+.react-datepicker__header{
+    font-size: 18px;
+    background: #9b51e0;
+}
+
+.react-datepicker__month{
+    font-size: 20px;
+}
+
+.react-datepicker__current-month{
+    color: white;
+}
+
+.react-datepicker__day-name{
+    color: white;
+}

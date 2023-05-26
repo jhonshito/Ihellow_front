@@ -1,0 +1,12 @@
+
+.content_anotherInicio{
+    position: relative;
+    transition: all 0.2s ease;
+    max-height: 100%;
+    padding-left: 328px;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: #F6F5FF;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}

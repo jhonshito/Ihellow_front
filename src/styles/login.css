@@ -1,0 +1,122 @@
+.content_login{
+    width: 100%;
+    height: 100vh;
+}
+
+.content_form{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.form{
+    width: 550px;
+    background: #232526;
+    min-height: 400px;
+    max-height: 100vh;
+    margin: 0 auto 0 auto;
+    position: relative;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0, 0.19);
+}
+
+.content_logo{
+    width: 140px;
+    height: 140px;
+    background: white;
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgb(0, 0, 0, 0.19);
+}
+
+.content_logo img{
+    width: 80%;
+    height: 70%;
+}
+
+.formulario{
+    margin-top: 130px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.content_input{
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid #9b51e0;
+}
+
+.content_input input{
+    width: 80%;
+    float: right;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    color: white;
+}
+
+.content_input input::placeholder{
+    color: white;
+}
+
+.content_icon{
+    position: absolute;
+    top: 20%;
+    left: 6%;
+    display: grid;
+}
+
+.content_icon i{
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.boton{
+    padding: 10px 0;
+    cursor: pointer;
+    border: 1px solid #9b51e0;
+    border-radius: 5px;
+    background: #9b51e0;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.content_validacion{
+    display: none;
+    background: #f8d7da;
+    padding: 10px 0;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    border-radius: 3px;
+    padding-left: 20px;
+}
+
+
+/* responsive */
+
+@media (min-width: 200px) and (max-width: 600px) {
+    .form{
+        width: 90%;
+    }
+}
